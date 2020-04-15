@@ -1,0 +1,25 @@
+[debug] [2020-04-15T16:05:31.727Z] ----------------------------------------------------------------------
+[debug] [2020-04-15T16:05:31.729Z] Command:       /usr/local/bin/node /Users/neyanta/.npm-global/bin/firebase serve
+[debug] [2020-04-15T16:05:31.730Z] CLI Version:   8.0.3
+[debug] [2020-04-15T16:05:31.730Z] Platform:      darwin
+[debug] [2020-04-15T16:05:31.730Z] Node Version:  v12.16.2
+[debug] [2020-04-15T16:05:31.731Z] Time:          Wed Apr 15 2020 21:35:31 GMT+0530 (India Standard Time)
+[debug] [2020-04-15T16:05:31.731Z] ----------------------------------------------------------------------
+[debug] [2020-04-15T16:05:31.732Z] 
+[debug] [2020-04-15T16:05:31.748Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-15T16:05:31.749Z] > authorizing via signed-in user
+[debug] [2020-04-15T16:05:31.749Z] [iam] checking project moviedb-8e769 for permissions ["firebase.projects.get"]
+[debug] [2020-04-15T16:05:31.754Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/moviedb-8e769:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-15T16:05:33.388Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 15 Apr 2020 16:05:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1325","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-15T16:05:33.391Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/moviedb-8e769  
+ 
+[debug] [2020-04-15T16:05:33.893Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 15 Apr 2020 16:05:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from '/Users/neyanta/Desktop/StudyMonk/movie-app'...
+[info] 
+[debug] [2020-04-15T16:05:33.899Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/moviedb-8e769/webApps/-/config  
+ 
+[debug] [2020-04-15T16:05:34.683Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 15 Apr 2020 16:05:34 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
